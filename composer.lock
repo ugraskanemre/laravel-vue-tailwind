@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73bb13e81ab84f98e67b2e1a9b23044e",
+    "content-hash": "3ed8666104f2fb47558335da090730d0",
     "packages": [
         {
             "name": "brick/math",
@@ -2457,6 +2457,59 @@
                 }
             ],
             "time": "2024-03-06T16:17:14+00:00"
+        },
+        {
+            "name": "padosoft/laravel-sluggable",
+            "version": "3.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/padosoft/laravel-sluggable.git",
+                "reference": "2b1b499ae40282915389c75036f82cd15313e38e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/padosoft/laravel-sluggable/zipball/2b1b499ae40282915389c75036f82cd15313e38e",
+                "reference": "2b1b499ae40282915389c75036f82cd15313e38e",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^5.7|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "illuminate/support": "^5.7|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^3.7|^4.0|^5.0|^6.0|^7.0|^8.0|^9.0",
+                "phpunit/phpunit": "^7.0|^8.0|^9.0|^10.0",
+                "roave/security-advisories": "dev-latest"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Padosoft\\Sluggable\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lorenzo Padovani",
+                    "email": "helpdesk@padosoft.com",
+                    "homepage": "https://www.padosoft.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Generate slugs when saving Eloquent models",
+            "homepage": "https://github.com/padosoft/laravel-sluggable",
+            "keywords": [
+                "laravel-sluggable",
+                "padosoft"
+            ],
+            "support": {
+                "source": "https://github.com/padosoft/laravel-sluggable/tree/3.7.0"
+            },
+            "time": "2024-05-20T12:08:28+00:00"
         },
         {
             "name": "phpoption/phpoption",
